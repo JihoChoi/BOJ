@@ -10,6 +10,13 @@ Python 3
 - ```scripts```
 
 
+### Bookmarks
+
+.  | #
+---|-------------------------------
+   | 01004 02839 00000 00000 00000
+   | 00000 00000 00000 00000 00000
+
 ### References
 - [Baekjoon Online Judge](https://www.acmicpc.net)
 - BOJ Solutions
