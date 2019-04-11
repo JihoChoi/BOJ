@@ -12,7 +12,7 @@ Python 3
 
 ### Bookmarks & Reviews
 ```bash
-  grep -r "REVIEW" .
+grep -r "REVIEW\|TODO" .
 ```
 
 
