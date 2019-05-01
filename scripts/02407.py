@@ -2,15 +2,15 @@
 
 n, m = map(int, input().split(' '))
 
-# denominator
-denominator = 1
-for i in range(0, m):
-    denominator *= n
-    n -= 1
-
 # numerator
 numerator = 1
-for i in range(m, 0, -1):
-    numerator *= i
+for i in range(0, m):
+    numerator *= n
+    n -= 1
 
-print(denominator // numerator)
+# denominator
+denominator = 1
+for i in range(m, 0, -1):
+    denominator *= i
+
+print(numerator // denominator)
